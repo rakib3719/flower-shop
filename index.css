@@ -1,0 +1,237 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+
+    width: 75%;
+    max-width: 1420px;
+    margin: 0 auto;
+
+
+}
+
+
+p {
+
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 12px;
+}
+
+.btn {
+    margin-top: 10px;
+    background-color: #E55473;
+    border: 0;
+    color: white;
+    padding: 12px 27px;
+    border-radius: 5px;
+}
+
+
+.section-title {
+
+    text-align: center;
+    margin-top: 150px;
+}
+
+.section-des {
+
+    width: 370px;
+    margin: 10px auto;
+}
+
+.highlight{
+
+    color: #E55473;
+}
+
+/* Header and banner style */
+
+header {
+
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.banner {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+
+}
+
+.banner-image {}
+
+.banner-image img {
+
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.banner-text {
+    width: 450px;
+}
+
+.banner-text h1 {
+    margin-bottom: 20px;
+}
+
+/* feture item style */
+
+.main-feture {
+
+    display: flex;
+    gap: 40px;
+
+
+    align-items: center;
+
+
+}
+
+.feture-item {
+
+    width: 300px;
+    height: 500px;
+
+
+
+}
+
+.feture-item img {
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    vertical-align: middle;
+}
+
+.feture-item h5 {
+
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.feture-1 {
+
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 30px 40px 0;
+
+}
+
+.feture-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 30px 40px 0;
+}
+
+.feture-3 {
+
+
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 30px 40px 0;
+}
+
+/* service style */
+
+.service {
+
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+}
+
+.service-main {
+
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.service-info {
+    padding: 80px 75px;
+}
+
+.service-info img {
+
+    width: 55px;
+}
+
+.service-info h6 {
+
+    margin-top: 10px;
+}
+
+
+.deal-section {
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-top: 80px;
+}
+
+.hot-deal {
+
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    gap: 30px;
+    justify-content: space-between;
+
+}
+
+.hot-deal-main img{
+
+    max-width: 100%;
+}
+
+
+/* instaragaram section style */
+
+.instagram-img{
+
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.insta-img-item img{
+
+    max-width: 100%;
+}
+
+/* latest style */
+
+.latest {
+
+
+    background-image: url("./image/last.png");
+    background-size: cover;
+    padding: 0px 10px 80px 0;
+    margin-top: 60px;
+}
+
+.last-content{
+
+padding-top: 1px;
+margin-top: none;
+  
+}
+
+
+input{
+
+    display: block;
+  width: 100%;
+}
+
+form{
+
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+}
